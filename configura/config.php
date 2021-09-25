@@ -8,7 +8,7 @@ class conectar {
         //$conexion = new mysqli("localhost","root","myadminm","controlpt");
 
         //Otra forma para manejar errores de conexion:
-        $conexion = new mysqli_connect("localhost","root","myadminm","controlpt");
+        $conexion = new mysqli_connect("localhost","root","","controlpt");
         if (!$conexion) {
             die("Connection failed: " . mysqli_connect_error());
         }
