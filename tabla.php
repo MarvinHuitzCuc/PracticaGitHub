@@ -52,6 +52,8 @@
 			</td>
 		</tr>
 
+		<h1>Comentario</h1>
+
 		<?php 
 			endwhile;
 		 ?>
